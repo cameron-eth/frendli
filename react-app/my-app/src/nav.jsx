@@ -2,11 +2,11 @@ import React from 'react';
 
 function Navi() {
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-black p-4">
       <ul className="flex space-x-4 justify-around text-white">
-        <li><a href="#" className="hover:text-blue-300">Home</a></li>
-        <li><a href="#" className="hover:text-blue-300">About</a></li>
-        <li><a href="#" className="hover:text-blue-300">Contact</a></li>
+        <li><a href="#" className="hover:text-blue-300"></a></li>
+        <li><a href="#" className="hover:text-blue-300">Join</a></li>
+        <li><a href="#" className="hover:text-blue-300"></a></li>
       </ul>
     </nav>
   );
