@@ -2,24 +2,33 @@ import React from 'react';
 
 function Body() {
   return (
-    <div className="relative overflow-hidden bg-black">
+    <div className="relative w-full overflow-hidden bg-white/5">
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+      
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+        <div className='p-4 w-full rounded-md'> 
           <div className="sm:max-w-lg">
-          <h1 className="text-8xl font-bold tracking-tight bg-gradient-to-r from-purple-500 via-yellow-400 to-blue-300 text-transparent bg-clip-text">
-          Frendly
+          
+          <h1 className="text-8xl font-bold  tracking-tight bg-gradient-to-r from-purple-500 via-yellow-400 to-blue-300 text-transparent bg-clip-text">
+          Frendli
         </h1>
+
+        
         
             
-            <p className="mt-4 text-xl text-white">Share your plans, find things to do, invite others, connect in the environments you love. Using Technology to leverage connection</p>
-            <a href="#" className=" mt-8 inline-block rounded-md border border-transparent  bg-white/5 px-8 py-3 text-center font-medium text-yellow-400 hover:bg-indigo-100">
+            <p className="mt-4 text-xl text-white">Using Technology to leverage human connection. Share your plans, find things to do, invite others, connect in the environments you love. </p>
+            <a href="#" className=" mt-8 mb-40 inline-block rounded-md border border-transparent  bg-white/5 px-8 py-3 text-center font-medium text-yellow-400 hover:bg-indigo-100">
             Find Experiences Now
           </a>
+          <div className="h-full w-2 bg-white"></div>
+
+          </div>
           </div>
           <div>
-          <div className="mt-10 bg-white/5 border-2 mt-40 rounded-lg shadow-lg p-3">
-
-            <div id='hyperlink' className=' mb-10 flex justify-around m-2 '>
+          <p className='text-white mt-40 text-8xl font-bold'>Checkout</p>
+          <p className='text-white text-5xl'>This Weeks Happenings</p>
+          <div className=" bg-white/5 border-2 mt-20 rounded-lg shadow-lg p-3">
+            <div id='hyperlink' className=' mb-10 flex justify-around w-full m-2 '>
             <li className='text-white text-8xl cursor-default list-none hover:text-red-500 '>DJ Sets</li>
             <li className='text-white text-5xl cursor-default list-none  hover:text-blue-500 mr-2 '>Restraunts & Shops</li>
             <li className='text-white text-5xl cursor-default mr-2 list-none  hover:text-green-500 '> + </li>
